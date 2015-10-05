@@ -9,3 +9,26 @@ So to maintain a perfect code base  i would like to request all the members to f
 5 - And send me a Pull Request.<br>
 6 - All web pages should include one one document for describing their functionalities along with the initial owner name of that page, any changes made to any web page will be recorded in the coressponding document page along with the region, date, and owner of the modefication .<br>
 <b>NOTE : </b> <i>No member can remove or edit directly to the main Project Repository For Any Changes members/developers has to send  a Pull Request .</i>
+
+<h1><b><i>Developers Details :- </i></b></h1>
+
+<table>
+  <thead>
+    <td>Sl No</td>
+    <td>Name </td>
+    <td>Mobile No</td>
+    <td>Email Id</td>
+    <td>Qualification</td>
+    <td>Designation</td>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 .</td>
+      <td>Biswa Ranjan Samal</td>
+      <td>7205284238</td>
+      <td>bichhubiswa@gmail.com</td>
+      <td>MCA, M.Tech-CSE(Continuing)</td>
+      <td>Software Engeenier</td>
+    </tr>
+  <\tbody>
+</table>
