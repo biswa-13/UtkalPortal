@@ -1,0 +1,48 @@
+<html>
+<head>
+<!-- Add latest jquery -->
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
+<!-- add this function in the head after jQuery  -->
+<script type="text/javascript" language="javascript">
+jQuery.noConflict(); // you can use $ instead
+(function($)
+{
+    $.fn.blink = function(options)
+    {
+        var defaults = { delay:500 };
+        var options = $.extend(defaults, options);
+        
+        return this.each(function()
+        {
+            var obj = $(this);
+            setInterval(function()
+            {
+                if($(obj).css("visibility") == "visible")
+                {
+                    $(obj).css('visibility','hidden');
+                }
+                else
+                {
+                    $(obj).css('visibility','visible');
+                }
+            }, options.delay);
+        });
+    }
+}(jQuery))
+</script>
+
+<script type="text/javascript" language="javascript">
+jQuery(document).ready(function()
+{
+    jQuery('.blink').blink();
+});
+</script>
+
+</head>
+<body>	
+<p class="blink">blinking</p>
+
+</body>
+
+</html>

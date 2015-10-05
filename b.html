@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Blink color, text, font HTML</title>
+<script>
+function blinkFont()
+{
+  document.getElementById("blink1").style.color="red"
+  setTimeout("setblinkFont()",500)
+}
+
+function setblinkFont()
+{
+  document.getElementById("blink1").style.color="blue"
+  setTimeout("blinkFont()",500)
+}
+
+
+</script>
+</head>
+
+<body onload="blinkFont()">
+<div id="blink1"> This font is blinking </div>
+</body>
+</html>
