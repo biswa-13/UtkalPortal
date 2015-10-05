@@ -30,5 +30,13 @@ So to maintain a perfect code base  i would like to request all the members to f
       <td>MCA, M.Tech-CSE(Continuing)</td>
       <td>Software Engeenier</td>
     </tr>
+     <tr>
+      <td>2 .</td>
+      <td>Santosh Kumar Dash</td>
+      <td>7205284238</td>
+      <td>bichhubiswa@gmail.com</td>
+      <td>MCA, M.Tech-CSE(Continuing)</td>
+      <td>Software Engeenier</td>
+    </tr>
   <\tbody>
 </table>
